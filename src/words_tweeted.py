@@ -4,21 +4,27 @@ import re
 import sys
 from collections import Counter
 
-tweets = ('/Users/soniamehta/Desktop/cc-example/tweet_input/tweets.txt')
-tweets = open(tweets)
 
+tweets =  sys.stdin
 
 # Calculate word frequencies from input tweets.
 word_counts = {}
-for tweet in tweets: #sys.stdin:
+for tweet in tweets: 
     words = re.split('\s+', tweet)    
     word_counts.update(Counter(words))
 
 # Print word frequencies.
-for key in sorted(word_counts.keys()):  # iterate through sorted dictionary
-    a =  [key, word_counts[key]]
-    print a
+def create_dictionary(words):
+	word_counts = collections.default.dict(int)
+	for word in words:
+		word_counts[word] += 1
+	return word_counts
 
-with open("output.csv", "w") as f:
-    writer = csv.writer(f)
-    writer.writerows(a)
+print sys.argv
+
+# print word_counts
+# with open('txt.txt','wb') as f:
+#     w = csv.writer(f)
+#     w.writerows(sorted(word_counts.items()))
+
+# cat tweet_input/tweets.txt | python src/words_tweeted.py ft1.txt

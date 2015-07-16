@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Insight Data Engineering - Coding Challenge
 ===========================================================
 
@@ -166,3 +167,6 @@ We receive hundreds of submissions and try to evaluate them all in a timely mann
 =======
 # Mehta_Insight
 >>>>>>> e82f2d8d9ad57effea372e1903b6b5fd77801167
+=======
+# Mehta_Insight
+>>>>>>> 054f81238d0ae23f2f61edf4f721c4f2c0fb3b1b

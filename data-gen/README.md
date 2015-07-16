@@ -1,1 +1,0 @@
-This diretory is still a work in progress, but we will commit an example data generator to produce the example input from real Twitter data.

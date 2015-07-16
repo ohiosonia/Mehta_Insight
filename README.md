@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Insight Data Engineering - Coding Challenge
 ===========================================================
 
@@ -162,3 +163,6 @@ Generally, we will evaluate your coding challenge with a testing suite that prov
 * *How long will it take for me to hear back from you about my submission?*  
 We receive hundreds of submissions and try to evaluate them all in a timely manner.  We try to get back to all applicants within two or three weeks of submission, but if you have a specific deadline that requires expedited review, you may email us at info@insightdataengineering.com.  
 
+=======
+# Mehta_Insight
+>>>>>>> e82f2d8d9ad57effea372e1903b6b5fd77801167
